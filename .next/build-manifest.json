@@ -17,40 +17,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/404": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/404.js"
-    ],
     "/About": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/About.js"
-    ],
-    "/Brands": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Brands.js"
-    ],
-    "/Careers": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Careers.js"
-    ],
-    "/Coporate": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Coporate.js"
-    ],
-    "/Investors": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Investors.js"
-    ],
-    "/Newsroom": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Newsroom.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
