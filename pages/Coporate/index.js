@@ -16,14 +16,20 @@ import SplitTwo from "@/components/Split/Split-Two";
 import PageHead from "@/pages/Head";
 import BackToTop from "@/pages/backToTop";
 import TestimonialSix from "@/components/Testimonials/Testimonial-Six";
+import HeaderStyleThree from "@/components/Header/HeaderStyle-Three";
+import FooterThree from "@/components/Footer/Footer-Three";
 
-const AboutUsPage = () => {
+const CoporatePage = () => {
   return (
     <>
       <PageHead title="About Us 01 - Online Courses & Education NEXTJS14 Template" />
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          <HeaderStyleThree
+            headerType="rbt-transparent-header"
+            headerSticky="rbt-sticky"
+          />
+          {/* <HeaderStyleTen headerSticky="rbt-sticky" headerType="" /> */}
           <MobileMenu />
           <Cart />
 
@@ -76,11 +82,13 @@ const AboutUsPage = () => {
           </div>
 
           <BackToTop />
-          <FooterOne />
+          {/* <FooterOne /> */}
+          <FooterThree />
+
         </Context>
       </Provider>
     </>
   );
 };
 
-export default AboutUsPage;
+export default CoporatePage;
