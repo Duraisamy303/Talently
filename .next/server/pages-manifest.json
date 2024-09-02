@@ -2,10 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/About": "pages/About.js",
-  "/Investors": "pages/Investors.js",
-  "/Coporate": "pages/Coporate.js",
+  "/Brands": "pages/Brands.js",
   "/Careers": "pages/Careers.js",
+  "/Investors": "pages/Investors.js",
   "/Newsroom": "pages/Newsroom.js",
-  "/Brands": "pages/Brands.js"
+  "/Coporate": "pages/Coporate.js"
 }

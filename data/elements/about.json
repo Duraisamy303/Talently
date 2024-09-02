@@ -2,9 +2,9 @@
   "aboutOne": [
     {
       "tag": "KNOW ABOUT US",
-      "title": "Know About Histudy",
-      "subTitle": " Learning Platform",
-      "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "title": "Talentely",
+      "subTitle": " Find Your Dream Job, Find Your Dream Team With Talentely.",
+      "desc": "Talentely revolutionizes talent acquisition by aggregating institutions, corporates, and talents in one platform. Our three-step approach ensures maximum engagement and motivation for a successful first career destination. Talentely is the future of talent acquisition, revolutionizing the integration of institutions, corporates, and talents in one platform.",
       "images": [
         {
           "id": 1,
@@ -29,23 +29,24 @@
         }
       ],
       "children": [
+
         {
-          "title": "Flexible Classes",
-          "icon": "feather-heart",
+          "title": "Commitment to Best Service",
+          "icon": "feather-settings",
           "isPrimary": false,
-          "info": "It is a long established fact that a reader will be distracted by this on readable content of when looking at its layout."
+          "info": "We understand that finding the right talent can be a time-consuming and challenging task. Thus, we provide top-notch service to simplify finding the right talent for clients."
         },
         {
-          "title": "Learn From Anywhere",
-          "icon": "feather-book",
-          "isPrimary": true,
-          "info": "Sed distinctio repudiandae eos recusandae laborum eaque non eius iure suscipit laborum eaque non eius iure suscipit."
-        },
-        {
-          "title": "Experienced Teacher's service.",
+          "title": "Empowering Corporates",
           "icon": "feather-monitor",
+          "isPrimary": true,
+          "info": "We empower corporates with EIS for easy identification of top talent. This system makes it easier for employers to identify top talent."
+        },
+        {
+          "title": "Student Success",
+          "icon": "feather-users",
           "isPrimary": false,
-          "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aliquid mollitia Officia, aliquid mollitia."
+          "info": "We help students succeed with courses and rewards through our LMS, boosting their EIS for better job placement."
         }
       ]
     }

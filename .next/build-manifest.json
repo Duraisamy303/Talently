@@ -12,11 +12,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/About": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/About.js"
-    ],
     "/Brands": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
