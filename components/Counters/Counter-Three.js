@@ -32,7 +32,6 @@ const CounterThree = () => {
               mb="mb--60"
               tag={data.tag}
               title={data.title}
-              subTitle={data.subTitle}
               desc={data.desc}
             />
 
@@ -75,7 +74,8 @@ const CounterThree = () => {
                                 values[index * data.body.length + innerIndex]
                               }
                             />
-                          </span>
+                          </span>{" "}
+                          <span style={{fontSize:"22px"}}> {item.unit}</span>
                         </h3>
                         <span className="subtitle">{item.text}</span>
                       </div>

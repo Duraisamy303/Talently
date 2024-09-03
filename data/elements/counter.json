@@ -93,57 +93,60 @@
   "counterThree": [
     {
       "tag": "WHY CHOOSE US",
-      "title": "Creating A Community Of",
-      "subTitle": "Life Long Learners.",
-      "desc": "There are many variations of passages of the Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+      "title": "Hire from Us",
+      "desc": "Save Time and Costs with Access to Fresh Graduates from Top Universities and Institutions.",
       "body": [
         {
           "id": 1,
-          "text": "Learners & counting",
-          "num": 500,
+          "text": "Intensive Hands-on Learning with Capstone Projects",
+          "num": 5,
           "img": "/images/icons/counter-01.png",
           "icon": "feather-heart",
           "mt": false,
           "primary": true,
           "pink": false,
           "secondary": false,
-          "violet": false
+          "violet": false,
+          "unit":"Months"
         },
         {
           "id": 2,
-          "text": "Courses & Video",
-          "num": 800,
+          "text": "Industry-led Curriculum",
+          "num": 700,
           "img": "/images/icons/counter-02.png",
           "icon": "feather-activity",
           "mt": true,
           "pink": true,
           "primary": false,
           "secondary": false,
-          "violet": false
+          "violet": false,
+          "unit":"Hours"
         },
         {
           "id": 3,
-          "text": "Certified Students",
-          "num": 1000,
+          "text": "Coding Practice in Github, LeetCode &amp; HackerRank",
+          "num": 500,
           "img": "/images/icons/counter-03.png",
           "icon": "feather-cast",
           "mt": false,
           "secondary": true,
           "primary": false,
           "pink": false,
-          "violet": false
+          "violet": false,
+          "unit":"Hours"
         },
         {
           "id": 4,
-          "text": "Certified Students",
-          "num": 100,
+          "text": "Hands-on real-time Projects",
+          "num": 6,
           "img": "/images/icons/counter-04.png",
           "icon": "feather-map",
           "mt": true,
           "violet": true,
           "primary": false,
           "pink": false,
-          "secondary": false
+          "secondary": false,
+          "unit":"Projects"
         }
       ]
     }

@@ -9,12 +9,10 @@ const AccordionThree = () => {
             <div className="rbt-accordion-style accordion">
               <div className="section-title text-center mb--60">
                 <span className="subtitle bg-pink-opacity">{data.tag}</span>
-                <h2 className="title">
-                  {data.title} <br /> {data.subTitle}
-                </h2>
-                <p className="description has-medium-font-size mt--20">
+                <h2 className="title">{data.title}</h2>
+                {/* <p className="description has-medium-font-size mt--20">
                   <strong>{data.strong}</strong> {data.description}
-                </p>
+                </p> */}
               </div>
               <div className="rbt-accordion-style rbt-accordion-04 accordion">
                 <div className="accordion" id="accordionExamplec3">

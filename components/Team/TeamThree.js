@@ -14,7 +14,7 @@ const TeamThree = () => {
 
         <div className="row row--15 mt_dec--30">
           {TeamData &&
-            TeamData.team.slice(0, 3).map((data, index) => (
+            TeamData.teamTwo.map((data, index) => (
               <div className="col-lg-4 col-md-6 col-12 mt--30" key={index}>
                 {data.details.map((item, innerIndex) => (
                   <div
@@ -32,14 +32,14 @@ const TeamThree = () => {
                         />
                       </div>
                       <div className="content">
-                        <h2 className="title">{item.name}</h2>
-                        <h6 className="subtitle theme-gradient">{item.type}</h6>
+                        <h4 style={{ textAlign: "center", fontSize: "24px" }} dangerouslySetInnerHTML={{ __html: item.name }}></h4>
+                        {/* <h6 className="subtitle theme-gradient">{item.type}</h6>
                         <span className="team-form">
                           <i className="feather-map-pin"></i>
                           <span className="location">{item.location}</span>
                         </span>
-                        <p className="description">{item.desc}</p>
-                        <ul className="social-icon social-default icon-naked mt--20">
+                        <p className="description">{item.desc}</p> */}
+                        {/* <ul className="social-icon social-default icon-naked mt--20">
                           <li>
                             <Link href="https://www.facebook.com/">
                               <i className="feather-facebook"></i>
@@ -55,7 +55,7 @@ const TeamThree = () => {
                               <i className="feather-instagram"></i>
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </div>
                     </div>
                   </div>

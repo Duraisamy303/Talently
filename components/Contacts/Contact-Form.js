@@ -26,7 +26,7 @@ const ContactForm = ({ gap }) => {
                   </span>
                 </div>
                 <h3 className="title">
-                  Get a Free Course You Can Contact With Me
+                Hire with Talentely
                 </h3>
                 <form
                   id="contact-form"

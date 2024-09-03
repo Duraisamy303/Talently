@@ -170,5 +170,196 @@
         }
       ]
     }
+  ],
+
+  "teamTwo": [
+    {
+      "img": "/images/team/team-01.jpg",
+      "isLarge": true,
+      "isActive": true,
+      "details": [
+        {
+          "img": "/images/team/team-01.jpg",
+          "name": "Full Stack Java/Python"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-02.jpg",
+      "isLarge": true,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-02.jpg",
+          "name": "MERN Stack"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-03.jpg",
+      "isLarge": true,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-03.jpg",
+          "name": "MEAN Stack"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-04.jpg",
+      "isLarge": true,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-04.jpg",
+          "name": "Cyber Security"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-05.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-05.jpg",
+          "name": "Cloud Computing"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-06.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-06.jpg",
+          "name": "AI & ML"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-07.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-07.jpg",
+          "name": "Data Science"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-08.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-08.jpg",
+          "name": "Software Testing"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-09.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-09.jpg",
+          "name": "Joo Bieden",
+          "type": "Mobile Development"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-10.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-10.jpg",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-10.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-10.jpg",
+          "name": "BI and Visualization"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-10.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-10.jpg",
+          "name": "Programming & Frameworks"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-10.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-10.jpg",
+          "name": "Architecture & Design Patterns"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-10.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-10.jpg",
+          "name": "RPA"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-10.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-10.jpg",
+          "name": "Digital Marketing"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-10.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-10.jpg",
+          "name": "Softskills"
+        }
+      ]
+    },
+    {
+      "img": "/images/team/team-10.jpg",
+      "isLarge": false,
+      "isActive": false,
+      "details": [
+        {
+          "img": "/images/team/team-10.jpg",
+          "name": "Finance"
+        }
+      ]
+    }
   ]
 }
