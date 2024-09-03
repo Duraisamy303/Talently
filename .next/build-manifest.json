@@ -12,30 +12,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/Brands": [
+    "/About": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Brands.js"
-    ],
-    "/Careers": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Careers.js"
-    ],
-    "/Coporate": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Coporate.js"
-    ],
-    "/Investors": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Investors.js"
-    ],
-    "/Newsroom": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Newsroom.js"
+      "static/chunks/pages/About.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -46,6 +26,36 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/elements/header-style": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/elements/header-style.js"
+    ],
+    "/instructor/instructor-dashboard": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/instructor/instructor-dashboard.js"
+    ],
+    "/instructor/instructor-enrolled-course": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/instructor/instructor-enrolled-course.js"
+    ],
+    "/instructor/instructor-profile": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/instructor/instructor-profile.js"
+    ],
+    "/pages/admission-guide": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/pages/admission-guide.js"
+    ],
+    "/student/student-dashboard": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/student/student-dashboard.js"
     ]
   },
   "ampFirstPages": []

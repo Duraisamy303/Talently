@@ -1,12 +1,24 @@
 {
-  "../components/Newsletters/Newsletter-Two.js -> react-odometerjs": {
-    "id": "../components/Newsletters/Newsletter-Two.js -> react-odometerjs",
+  "..\\components\\Admission-Guide\\AdmissionArea.js -> venobox/dist/venobox.min.js": {
+    "id": "..\\components\\Admission-Guide\\AdmissionArea.js -> venobox/dist/venobox.min.js",
+    "files": [
+      "static/chunks/node_modules_venobox_dist_venobox_min_js.js"
+    ]
+  },
+  "..\\components\\Instructor\\Dashboard-Section\\widgets\\CounterWidget.js -> react-odometerjs": {
+    "id": "..\\components\\Instructor\\Dashboard-Section\\widgets\\CounterWidget.js -> react-odometerjs",
     "files": [
       "static/chunks/node_modules_react-odometerjs_dist_index_js.js"
     ]
   },
-  "../components/Split/Split-Two.js -> venobox/dist/venobox.min.js": {
-    "id": "../components/Split/Split-Two.js -> venobox/dist/venobox.min.js",
+  "..\\components\\Newsletters\\Newsletter-Two.js -> react-odometerjs": {
+    "id": "..\\components\\Newsletters\\Newsletter-Two.js -> react-odometerjs",
+    "files": [
+      "static/chunks/node_modules_react-odometerjs_dist_index_js.js"
+    ]
+  },
+  "..\\components\\Split\\Split-Two.js -> venobox/dist/venobox.min.js": {
+    "id": "..\\components\\Split\\Split-Two.js -> venobox/dist/venobox.min.js",
     "files": [
       "static/chunks/node_modules_venobox_dist_venobox_min_js.js"
     ]

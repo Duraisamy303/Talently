@@ -64,7 +64,6 @@ const About = () => {
               <h4>Our Core Values</h4>
               {data.children.map((item, innerIndex) => (
                 <div className="rbt-feature-wrapper mt--40" key={innerIndex}>
-                
                   <div className="rbt-feature feature-style-1">
                     <div
                       className={`icon ${
@@ -75,35 +74,30 @@ const About = () => {
                     >
                       <i className={item.icon}></i>
                     </div>
-                    
+
                     <div className="feature-content">
-                    
                       <h6 className="feature-title">{item.title}</h6>
                       <p className="feature-description">{item.info}</p>
                     </div>
                   </div>
                 </div>
               ))}
-
-             
             </div>
           </div>
         </div>
       ))}
 
-<div className="row mt--60">
-            <div className="col-lg-12">
-              <div className="section-title text-center">
-              
-                <h2 className="title">More than 200k users hire faster with Talentely</h2>
-                <h2 className="title"> Pre-trained Candidates </h2>
-              
-              </div>
-            </div>
+      {/* <div className="row mt--60">
+        <div className="col-lg-12">
+          <div className="section-title text-center">
+            <h2 className="title">
+              More than 200k users hire faster with Talentely
+            </h2>
+            <h2 className="title"> Pre-trained Candidates </h2>
           </div>
+        </div>
+      </div> */}
     </div>
- 
-    
   );
 };
 

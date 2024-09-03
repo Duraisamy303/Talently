@@ -8,7 +8,7 @@ const BrandTwo = ({data}) => {
  
   return (
     <div className="container">
-      <div className="row ">
+      <div className="row mt--20">
         <div className="col-lg-12">
           <ul className="brand-list brand-style-1-new">
             {data &&

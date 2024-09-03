@@ -18,11 +18,15 @@ import BackToTop from "@/pages/backToTop";
 import TestimonialSix from "@/components/Testimonials/Testimonial-Six";
 import HeaderStyleThree from "@/components/Header/HeaderStyle-Three";
 import FooterThree from "@/components/Footer/Footer-Three";
+import BrandTwo from "@/components/Brand/Brand-Two";
+import { companies } from "@/utils.js/constant.utils";
+import CallToActionSix from "@/components/Call-To-Action/CallToAction-Six";
+import AboutCallToAction from "@/components/Call-To-Action/AboutCallToAction";
 
 const AboutUsPage = () => {
   return (
     <>
-      <PageHead title="About Us 01 - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="About Us" />
       <Provider store={Store}>
         <Context>
           {/* <HeaderStyleTen headerSticky="rbt-sticky" headerType="" /> */}
@@ -33,23 +37,46 @@ const AboutUsPage = () => {
           <MobileMenu />
           <Cart />
 
-          <div
+          {/* <div
             className="slider-area rbt-banner-10 height-750 bg_image bg_image--11"
             data-black-overlay="5"
           >
             <Banner />
-          </div>
+          </div> */}
           <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gapTop">
             <ParallaxProvider>
               <About />
             </ParallaxProvider>
           </div>
-          <div className="rbt-video-area rbt-section-gapBottom pt--50 bg-color-white">
+
+          <div>
+            <div className="container">
+              <div className="row mt--60">
+                <div className="col-lg-12">
+                  <div className="section-title text-center">
+                    <span className="subtitle bg-primary-opacity">
+                      VEHICULA LABORTIS
+                    </span>
+                    <h2 className="title">More than 200k users hire faster</h2>
+                    <h2 className="title">with Talentely</h2>
+
+                    {/* <p className="description has-medium-font-size mt--20 mb--0">
+                      Master Python by building 100 projects in 100 days. Learn
+                      data science, automation, build websites, games and apps
+                    </p> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <BrandTwo data={companies} />
+          </div>
+
+          {/* <div className="rbt-video-area rbt-section-gapBottom pt--50 bg-color-white">
             <div className="container">
               <SplitTwo isImg={false} />
             </div>
-          </div>
-          <div className="rbt-testimonial-area bg-color-white rbt-section-gapBottom overflow-hidden">
+          </div> */}
+          {/* <div className="rbt-testimonial-area bg-color-white rbt-section-gapBottom overflow-hidden">
             <div className="container-fluid">
               <div className="row g-5 align-items-center">
                 <div className="col-xl-3">
@@ -75,16 +102,16 @@ const AboutUsPage = () => {
                 <TestimonialSix />
               </div>
             </div>
-          </div>
+          </div> */}
           <Teacher />
-          <div className="rbt-newsletter-area newsletter-style-2 bg-color-primary rbt-section-gap">
-            <NewsletterTwo />
+
+          <div className="rbt-call-to-action-area  bg-gradient-16 rbt-section-gap-own">
+            <AboutCallToAction />
           </div>
 
           <BackToTop />
           {/* <FooterOne /> */}
           <FooterThree />
-
         </Context>
       </Provider>
     </>
