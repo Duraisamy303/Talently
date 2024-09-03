@@ -2,11 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/instructor/instructor-dashboard": "pages/instructor/instructor-dashboard.js",
-  "/instructor/instructor-profile": "pages/instructor/instructor-profile.js",
-  "/instructor/instructor-enrolled-course": "pages/instructor/instructor-enrolled-course.js",
-  "/student/student-dashboard": "pages/student/student-dashboard.js",
-  "/elements/header-style": "pages/elements/header-style.js",
-  "/pages/admission-guide": "pages/pages/admission-guide.js",
-  "/About": "pages/About.js"
+  "/About": "pages/About.js",
+  "/": "pages/index.js",
+  "/elements/style-guide": "pages/elements/style-guide.js",
+  "/elements/counter": "pages/elements/counter.js"
 }

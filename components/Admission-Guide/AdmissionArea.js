@@ -4,56 +4,42 @@ import Image from "next/image";
 
 import "venobox/dist/venobox.min.css";
 
-import videoImg from "../../public/images/others/video-04.jpg";
+import videoImg from "../../public/images/others/aboutGlobe.webp";
 
 const AdmissionArea = () => {
-  useEffect(() => {
-    import("venobox/dist/venobox.min.js").then((venobox) => {
-      new venobox.default({
-        selector: ".popup-video",
-      });
-    });
-  }, []);
   return (
     <>
       <div className="row g-5">
-        <div className="col-lg-6">
-          <div className="video-popup-wrapper">
+        <div
+          className="col-lg-6"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <div
+            className="video-popup-wrapper"
+            style={{ height: "250px", width: "250px !important" }}
+          >
             <Image
               className="w-100 rbt-radius"
               src={videoImg}
               alt="Video Images"
             />
-            <Link
-              className="rbt-btn btn-white rounded-player popup-video position-to-top"
-              href="https://www.youtube.com/watch?v=nA1Aqp0sPQo"
-              data-vbtype="video"
-              controls
-            >
-              <span>
-                <i className="feather-play"></i>
-              </span>
-            </Link>
           </div>
         </div>
         <div className="col-lg-6">
           <div className="addmission-guide-content pl--50 pl_sm--0 pl_md--0 pl_lg--0">
-            <h3 className="title">Guides to undergraduate study</h3>
+            <h3 className="title">Talently Locations</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been.
+              Primarily located and headquartered in Chennai, India. Talentely
+              has grown and expanded to cover the whole India as well as other
+              parts of the world. Join our team! Discover
             </p>
-            <p>
-              When an unknown printer took a galley of type and scrambled it to
-              make a type specimen book. It has survived not only five
-              centuries.
-            </p>
-            <h5>The goal should be more than money</h5>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
-            <div className="apply-btn">
+            <h5>Chennai, India</h5>
+
+            {/* <div className="apply-btn">
               <a
                 className="rbt-btn btn-gradient radius-round icon-hover"
                 href="#"
@@ -63,7 +49,7 @@ const AdmissionArea = () => {
                   <i className="feather-arrow-right"></i>
                 </span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

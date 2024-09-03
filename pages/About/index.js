@@ -22,6 +22,7 @@ import BrandTwo from "@/components/Brand/Brand-Two";
 import { companies } from "@/utils.js/constant.utils";
 import CallToActionSix from "@/components/Call-To-Action/CallToAction-Six";
 import AboutCallToAction from "@/components/Call-To-Action/AboutCallToAction";
+import AdmissionArea from "@/components/Admission-Guide/AdmissionArea";
 
 const AboutUsPage = () => {
   return (
@@ -103,7 +104,12 @@ const AboutUsPage = () => {
               </div>
             </div>
           </div> */}
-          <Teacher />
+          {/* <Teacher /> */}
+          <div className="rbt-admission-area bg-color-white rbt-section-gap">
+            <div className="container">
+              <AdmissionArea />
+            </div>
+          </div>
 
           <div className="rbt-call-to-action-area  bg-gradient-16 rbt-section-gap-own">
             <AboutCallToAction />
